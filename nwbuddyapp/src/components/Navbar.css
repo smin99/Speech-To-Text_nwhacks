@@ -1,3 +1,21 @@
 .navbar {
     background-color: green;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.navLink {
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.navLinks {
+    margin-bottom: 1em;
 }

@@ -7,12 +7,14 @@ class Navbar extends Component {
     render() {
         return(
             <div className="navbar">
-                hi I'm a navbar
-                <Link className="navLink" to={routes.HOME}>Home</Link>
-                <Link className="navLink" to={routes.PROFILE}>Profile</Link>
-                <Link className="navLink" to={routes.SEARCH}>Search</Link>
-                <Link className="navLink" to={routes.SIGNUP}>Signup</Link>
-                <Link className="navLink" to={routes.LOGIN}>Login</Link>
+                <h2>AccountiBuddy</h2>
+                <div className="navLinks">
+                    <Link className="navLink" to={routes.HOME}>Home</Link>
+                    <Link className="navLink" to={routes.PROFILE}>Profile</Link>
+                    <Link className="navLink" to={routes.SEARCH}>Search</Link>
+                    <Link className="navLink" to={routes.LOGIN}>Login</Link>
+                    <Link className="navLink" to={routes.SIGNUP}>Signup</Link>
+                </div>
             </div>
         )
     }
