@@ -12,6 +12,7 @@ class Navbar extends Component {
                 <Link className="navLink" to={routes.PROFILE}>Profile</Link>
                 <Link className="navLink" to={routes.SEARCH}>Search</Link>
                 <Link className="navLink" to={routes.SIGNUP}>Signup</Link>
+                <Link className="navLink" to={routes.LOGIN}>Login</Link>
             </div>
         )
     }
