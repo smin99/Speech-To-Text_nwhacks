@@ -1,3 +1,30 @@
 .profilePage {
-	font-size: 50px;
+	display: flex;
+	font-size: 20px;
+	width: 70%;
+	margin: auto;
+	margin-top: 2em;
+	background: #efefef;
+	padding: 1em;
+
+}
+
+.pavatar {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.profilePage > img {
+	margin-right: 2em;
+}
+
+.profilePage div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bigDiv {
+	flex-grow: 1;
 }

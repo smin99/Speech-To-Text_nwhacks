@@ -12,8 +12,12 @@ class Navbar extends Component {
                     <Link className="navLink" to={routes.HOME}>Home</Link>
                     <Link className="navLink" to={routes.PROFILE}>Profile</Link>
                     <Link className="navLink" to={routes.SEARCH}>Search</Link>
-                    <Link className="navLink" to={routes.LOGIN}>Login</Link>
-                    <Link className="navLink" to={routes.SIGNUP}>Signup</Link>
+                    {!this.props.sass ? (
+                        <Link className="navLink" to={routes.SIGNUP}>Login/SignUp</Link>
+                    ) : (
+                        <Link className="navLink" to={routes.SIGNUP}>Logout</Link>
+                    )}
+                    
                 </div>
             </div>
         )

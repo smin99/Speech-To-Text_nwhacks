@@ -4,10 +4,13 @@ import man1 from '../constants/images/adult-beard-boy-220453.jpg';
 import man2 from '../constants/images/adult-blur-cars-724887.jpg';
 import man3 from '../constants/images/beard-boy-casual-1222271.jpg';
 import woman from '../constants/images/beautiful-brunette-cute-774909.jpg';
+import Navbar from './Navbar';
 
 class Search extends Component {
     render() {
         return(
+            <div>
+            <Navbar sass={true}/>
             <div className="search">
                 <h1>Buddies Near You</h1>
                 <div className="profiles">
@@ -93,6 +96,7 @@ class Search extends Component {
                         }
                     }}/>
                 </div>
+            </div>
             </div>
         )
     }

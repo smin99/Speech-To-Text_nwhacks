@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
 import Home from './Home';
 import Profile from './Profile';
 import Search from './Search';
@@ -13,7 +12,6 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-            <Navbar />
             <Switch>
               <Route exact path={routes.HOME} component={() => <Home />} />
               <Route exact path={routes.PROFILE} component={() => <Profile />} />
