@@ -1,0 +1,152 @@
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profiles {
+    display: flex;
+    
+    border-radius: 1em;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    background: forestgreen;
+    padding: 2em;
+    padding-top: 2.5em;
+}
+
+.profile {
+    border-radius: 1em;
+    justify-content: space-between;
+    background: #efefef;
+    margin-bottom: 0.5em;
+    display: flex;
+    padding: 0.5em 1em;
+}
+
+.profile > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+}
+
+button {
+    color: #fff;
+    background-color: forestgreen;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.stevebtn:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.stevebtn:active {
+    background-color: darkgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+.funnyBox {
+    z-index: 1000;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.gravatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+textarea {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+}
+
+.lol {
+    display: flex;
+    background: green;
+    color: white;
+    font-size: 18px;
+    padding: 0.4em;
+}
+
+.lol > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1em;
+    flex-grow: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#close {
+    background-color: red;
+}
+
+#close:hover {
+    background-color: firebrick;
+}
+
+#close:active {
+    background-color: darkred;
+}
+
+#messageBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    align-self: flex-end;
+    background-color: #96D08E;
+    border-radius: 12px 12px 0 12px;
+    width: 60%;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 1em 0.5em;
+}
+
+#steve {
+    border: 3px solid green;
+}
+
+.profile > img {
+    border: 3px solid red;
+}

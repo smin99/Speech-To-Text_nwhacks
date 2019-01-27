@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return(
             <div className="navbar">
-                <h2>AccountiBuddy</h2>
+                <h2>BuddyStudies</h2>
                 <div className="navLinks">
                     <Link className="navLink" to={routes.HOME}>Home</Link>
                     <Link className="navLink" to={routes.PROFILE}>Profile</Link>
